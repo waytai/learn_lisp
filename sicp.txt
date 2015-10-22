@@ -1,1 +1,6 @@
 http://sicp.readthedocs.org/en/latest/index.html
+
+深入理解计算机系统
+Unix编程艺术
+算法导论
+编程珠玑
