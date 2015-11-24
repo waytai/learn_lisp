@@ -1,0 +1,2 @@
+emacs generate etags
+find . -name "*.py" -print | etags -
