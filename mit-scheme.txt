@@ -1,0 +1,2 @@
+ctr + g
+http://www.gnu.org/software/mit-scheme/documentation/mit-scheme-user/Interrupting.html#Interrupting
