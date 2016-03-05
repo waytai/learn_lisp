@@ -1,0 +1,5 @@
+(defun where-is (x)
+ (cond ((equal x 'paris) 'france)
+    ((equal x 'london) 'england)
+    ((equal x 'beijing) 'china)
+    (t 'unknown)))
