@@ -4,3 +4,10 @@
 
 (setq ls (cons 'a '(b c d)))
 (setq lscar (car '(a b c)))
+
+(setq  progexam
+	(progn
+	(format t "a")
+	(format t "b")
+	(+ 11 12))
+	)
