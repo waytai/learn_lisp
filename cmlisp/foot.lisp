@@ -1,0 +1,5 @@
+(defun foo ()	
+	(dotimes (i 10)
+	(format t "~d. hello~%" i)
+	)
+	)
