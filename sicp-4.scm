@@ -15,7 +15,6 @@
 (define (definition? exp)
   (tagged-list? exp 'define))
 
-;;(display (eval '(* 5 5) user-initial-environment))
 
 ;;(display 
 ;;    (self-evaluating? '(* 5 5))
@@ -39,3 +38,5 @@
 (display 
     (definition? '(define 10))
 )
+
+(display (eval '(* 5 5) user-initial-environment))
