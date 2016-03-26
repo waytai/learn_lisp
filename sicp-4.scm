@@ -12,6 +12,9 @@
       (eq? (car exp) tag)
       false))
 
+(define (definition? exp)
+  (tagged-list? exp 'define))
+
 ;;(display (eval '(* 5 5) user-initial-environment))
 
 ;;(display 
@@ -30,4 +33,9 @@
 
 (display 
     (quoted? '(quote 10))
+)
+
+
+(display 
+    (definition? '(define 10))
 )
