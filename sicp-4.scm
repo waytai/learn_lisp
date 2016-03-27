@@ -15,6 +15,7 @@
 (define (definition? exp)
   (tagged-list? exp 'define))
 
+;;(display (eval '(* 5 5) user-initial-environment))
 
 ;;(display 
 ;;    (self-evaluating? '(* 5 5))
@@ -39,4 +40,9 @@
     (definition? '(define 10))
 )
 
-(display (eval '(* 5 5) user-initial-environment))
+
+(define (text-of-quotation exp) (cadr exp))
+
+(display 
+    (text-of-quotation '(quote 10))
+)
