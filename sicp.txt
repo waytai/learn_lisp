@@ -6,3 +6,7 @@ Unix编程艺术
 编程珠玑
 
 http://blog.csdn.net/zzljlu/article/details/6816951
+
+
+sicp common lisp
+http://eli.thegreenplace.net/tag/sicp
