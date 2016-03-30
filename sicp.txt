@@ -16,3 +16,6 @@ http://www.letoverlambda.com/index.cl/toc
 
 lisp primer
 http://mypage.iu.edu/~colallen/lp/
+
+lisp cookbook
+http://cl-cookbook.sourceforge.net/
